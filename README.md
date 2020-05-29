@@ -1,3 +1,3 @@
 # CipherSchoolsDS
 Data Structures repo
-Just learning Data structures from scratch using JAVA.
+learning Data structures from using JAVA.
