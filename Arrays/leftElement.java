@@ -5,6 +5,11 @@ import java.io.*;
 
 //Print the left element
 //https://practice.geeksforgeeks.org/problems/print-the-left-element/0
+/*Given a array of length N, at each step it is reduced by 1 element.
+In the first step the maximum element would be removed,
+while in the second step minimum element of the remaining array would be removed,
+in the third step again the maximum and so on.
+Continue this till the array contains only 1 element. And print that final element remaining in the array.*/
 
 public class leftElement {
         public static void main (String[] args) {
