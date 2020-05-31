@@ -30,7 +30,7 @@ public class insLL {
             last=last.next;
         }
         last.next=temp;
-		return head;
+	return head;
     }
 
     static void print(Node temp){
