@@ -19,13 +19,18 @@ public class insLL {
         return head;
     }
 
-    static void insertAtEnd(Node head,int data){
+    static Node insertAtEnd(Node head,int data){
         Node temp=new Node(data);
+	if(head==null){
+            head=temp;
+            return head;
+        }
         Node last = head;
         while(last.next!=null){
             last=last.next;
         }
         last.next=temp;
+		return head;
     }
 
     static void print(Node temp){
