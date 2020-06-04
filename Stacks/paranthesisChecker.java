@@ -2,7 +2,12 @@ package stacks;
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-
+//https://practice.geeksforgeeks.org/problems/parenthesis-checker/0
+//Given an expression string exp. Examine whether the pairs and the orders of “{“,”}”,”(“,”)”,”[“,”]” are correct in exp.
+//        For example, the program should print 'balanced' for exp = “[()]{}{[()()]()}” and 'not balanced' for exp = “[(])”
+//
+//        Input:
+//        The first line of input contains an integer T denoting the number of test cases.  Each test case consists of a string of expression, in a separate line.
 
 public class paranthesisChecker {
     public static void main(String[] args) {
