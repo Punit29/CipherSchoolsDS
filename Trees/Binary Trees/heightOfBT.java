@@ -1,4 +1,4 @@
-/*package BinaryTree;
+package BinaryTree;
 
 class Node{
     Node left;
@@ -35,4 +35,3 @@ public class heightOfBT {
         return 1+Math.max(treeHeight(root.left),treeHeight(root.right));
     }
 }
-*/
