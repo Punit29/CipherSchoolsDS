@@ -1,4 +1,4 @@
-/*package BinaryTree;
+package BinaryTree;
 
 class  Node{
     int data;
@@ -56,4 +56,3 @@ public class dfs {
         b.postOrder(b.root);
     }
 }
-*/
